@@ -12,12 +12,13 @@ Design an analysis flow for obesity status classifiers according to textual judg
 
 Prerequisite
 ------
-This script executed under the matlab R2020b environment.
-
+This script executed under the matlab R2020b environment
 
 Usage
 -----
-There are four sections in this script. 
+There are 4 sections in this script
+It is recommended to implement each section individually and stage by stage
+Section 4 can be executed separately
 
 - Section 1：read medical records and convert them to characters
   - use text_preprocessing function of Information-based Similarity Toolbox
@@ -57,8 +58,17 @@ There are four sections in this script.
       - wordrecord_sort: list all combinations from high to low according to F1-score 
 
 - Section 4: obesity status detection
-
+    -  Used to verify data and output judgment results
+    -  Enter the keywords used to verify the data
+    ```
+    obesity_wordset = {'obesity','obese','CHRONIC','dentition','ADVAIR','cerebrovascular'};
+    ```
+    - Key output:
+       - match: show whether there are detected characters in each file
+       - validation_result: show the detection result
 
 
 Experiment results
 ------------
+According to Kaggle result, the highest score we got was 0.65714 
+
