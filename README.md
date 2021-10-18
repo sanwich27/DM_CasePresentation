@@ -1,12 +1,12 @@
 # Case Presentation 1 of YM_3 of Digit Medicine
 
-Team member: Tasi,W.X., Liu,X.Y., Li, B.Y., Ting, Y.C.
+Team member: Tsai, W.X., Liu, X.Y., Li, B.Y., Ting, Y.C.
 
 Overview of the task
 ---------
 Design an analysis flow for obesity status classifiers according to textual judgment (presence of obesity or unmentioned)
-- Training data based on textual judgement (200 obesity vs. 200 unmentioned)
-- Testing data based on intuitive judgement (200 obesity vs. 200 absence)
+- Training data based on textual judgement (200 cases obesity vs. 200 cases unmentioned)
+- Testing data based on intuitive judgement (200 cases obesity vs. 200 cases absence)
 - Validation data based on textual judgement (50 cases)
 
 
@@ -16,17 +16,17 @@ This script executed under the matlab R2020b environment
 
 Usage
 -----
-There are 4 sections in this script
-It is recommended to implement each section individually and stage by stage
-Section 4 can be executed separately
+There are 4 sections in this script  
+It is recommended to implement each section individually and stage by stage  
+Section 4 can be executed separately  
 
-- Section 1：read medical records and convert them to characters
-  - use text_preprocessing function of Information-based Similarity Toolbox
-    - Noted that after the text-preprocessing process, the characters outputs are all change into a capital case
+- Section 1：read medical records and convert them to seperate characters
+  - Use text_preprocessing function from Information-based Similarity Toolbox
+    - Note that after the text-preprocessing process, the characters in outputs are all changed into uppercase
   - Key output:
-    - Acommon: non-repeated characters in the input folder 
+    - Acommon: non-repeated characters from the files in input folder 
 
-- Section 2: find apear times in all data
+- Section 2: find appear times in all data
   - This section needs processed prior section first
   - Parameter setting：
     ```
