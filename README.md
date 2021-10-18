@@ -1,6 +1,6 @@
 # Case Presentation 1 of YM_3 of Digit Medicine
 
-Team member: Tasi,W.X., Liu,X.Y., Li, B.Y., Ding, Y.Z.
+Team member: Tasi,W.X., Liu,X.Y., Li, B.Y., Ting, Y.C.
 
 Overview of the task
 ---------
