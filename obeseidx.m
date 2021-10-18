@@ -1,3 +1,5 @@
+
+
 %% read medical records and convert them to characters
 fl= dir('*.txt');
 n = length(fl);
@@ -19,7 +21,7 @@ for j = 1:n
 end   
 Acommon = unique(common);
 
-%% Fine apear frequency in all data
+%% Find apear times in all data
     
 for l = 1:2   % 1:capital; 2:lower
     if l == 2
@@ -65,7 +67,7 @@ for l = 1:2   % 1:capital; 2:lower
 end
 
 
-%% train data F1-score
+%% find the best F1-score in different combination
 
 allwords = [WORDS.',words.'];
 p = length(allwords); %字串個數
