@@ -21,7 +21,7 @@ for j = 1:n
 end   
 Acommon = unique(common);
 
-%% Find apear times in all data
+%% Find the number of occurrences in all data
     
 for l = 1:2   % 1:capital; 2:lower
     if l == 2
